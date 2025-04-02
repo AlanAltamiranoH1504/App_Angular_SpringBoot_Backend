@@ -6,7 +6,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 //Configuramos para uso rapido con cliente
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "http://localhost:4200/")
 @RepositoryRestResource(path = "productos")
 public interface ProductoRepository extends CrudRepository<Producto, Integer> {
 }
